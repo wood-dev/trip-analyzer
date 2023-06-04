@@ -1,0 +1,31 @@
+body{
+font-family:"Arial", sans-serif;
+}
+
+.zInputWrapper{
+	background-color:#E4E8E8;
+	border-radius:4px;
+}
+
+.zInput{
+	display:inline-block;
+	background-color: white;
+	margin:4px;
+	text-align:center;
+	color: #336600;
+	border: #336600 1px solid;
+	border-radius:8px;
+	font-size: 21px;
+	overflow:hidden;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	padding: 6px;
+}
+
+.zSelected.zCheckbox{
+	background-color: orange;
+}
